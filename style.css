@@ -755,8 +755,15 @@ background-color: rgb(9, 158, 126);
 }
 
 @media(max-width:900px){
+
+    .sidebar{
+        width: 5rem;
+    }
     .brand-heading{
         font-size: 1rem;
+    }
+    .header{
+        margin-left:5rem;
     }
     .banner{
         text-align: center;
@@ -783,7 +790,7 @@ background-color: rgb(9, 158, 126);
     }
     .about-us{
         flex-direction: column;
-        margin-left: 3rem;
+       
     }
 
     .sub-heading{
@@ -798,6 +805,10 @@ background-color: rgb(9, 158, 126);
     .common-heading{
         font-size: 2rem;
     }
+    
+  #customers{
+      margin-left: 5rem;
+  }
     .customers-card-wrapper{
         flex-direction: column;
        align-items: center;
@@ -830,7 +841,7 @@ background-color: rgb(9, 158, 126);
 
 #gallery{
     height: 100vh;
-    margin-left: 8rem;
+    margin-left: 5rem;
 }
 .gallery-heading{
     text-align: center;
@@ -859,5 +870,8 @@ background-color: rgb(9, 158, 126);
 .navigation-search-input{
     width: 20rem;
   
+}
+#footer{
+    margin-left:5rem;
 }
 }
