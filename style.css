@@ -871,6 +871,9 @@ background-color: rgb(9, 158, 126);
     width: 20rem;
   
 }
+    .checkbox:checked ~.navigation{
+    left: 5rem;
+}
 #footer{
     margin-left:5rem;
 }
