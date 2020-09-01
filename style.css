@@ -866,12 +866,13 @@ background-color: rgb(9, 158, 126);
 }
 .navigation{
     width: 32rem;
+   
 }
 .navigation-search-input{
     width: 20rem;
   
 }
-    .checkbox:checked ~.navigation{
+.checkbox:checked ~.navigation{
     left: 5rem;
 }
 #footer{
